@@ -1,0 +1,20 @@
+function add7(num){
+    return num +7;
+}
+console.log(add7(7));
+
+function multiply(z, x){
+    return z * x;
+}
+console.log(multiply(2, 2));
+function capitalize(talk){
+    let result = talk[0].toUpperCase() + talk.slice(1);
+    return result;
+}
+console.log(capitalize("nasser"));
+function lastLetter(convo){
+ let tt=convo.length;
+
+ return convo[tt-1];
+}
+console.log(lastLetter("abxd"));
